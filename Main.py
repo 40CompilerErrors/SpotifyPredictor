@@ -20,6 +20,5 @@ if __name__ == '__main__':
     df = model.CreateFrame()
 
 
-
-
     #Paso 3: Crear la Neural Network
+
