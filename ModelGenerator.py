@@ -53,7 +53,7 @@ class ModelGenerator():
         for w in self.words:
             if w in title:
                 row.append(1)
-                print("Match found")
+                #print("Match found")
             else:
                 row.append(0)
 
@@ -64,7 +64,7 @@ class ModelGenerator():
                     found = 1
             if found:
                 row.append(1)
-                print("Match found")
+                #print("Match found")
             else:
                 row.append(0)
 
