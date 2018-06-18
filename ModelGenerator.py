@@ -18,7 +18,7 @@ class ModelGenerator():
         self.path = path
 
     def CreateFrame(self):
-        col = self.GetColums()
+        col = ["Words","Training","Songs"]
         rows = self.GetRows()
         df = pd.DataFrame(columns = col, data = rows)
         return df
@@ -48,14 +48,18 @@ class ModelGenerator():
 
     def FillRow(self,playlist):
         row = []
+        words = []
+        training = []
+        songs = []
+
         title = self.Lematize(playlist['name'])
 
         for w in self.words:
             if w in title:
-                row.append(1)
+                words.append(1)
                 #print("Match found")
             else:
-                row.append(0)
+                words.append(0)
 
         for url in self.songs:
             found = 0
@@ -63,12 +67,24 @@ class ModelGenerator():
                 if url in t['track_uri']:
                     found = 1
             if found:
-                row.append(1)
+                songs.append(1)
                 #print("Match found")
             else:
-                row.append(0)
+                songs.append(0)
+
+        #Crear un set de training
+        training = self.createTraining(songs = songs)
+        row.append(words)
+        row.append(training)
+        row.append(songs)
 
         return row
+
+    def createTraining(self, songs):
+        training = []
+
+
+        return training
 
     def Lematize(self,title):
         lematizer = WordNetLemmatizer()

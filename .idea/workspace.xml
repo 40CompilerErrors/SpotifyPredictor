@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3151ceff-8640-4f9e-b25a-07c4e49ace17" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/SpotifyTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SpotifyTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/ModelGenerator.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,8 +28,8 @@
       <file leaf-file-name="ModelGenerator.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ModelGenerator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="32" selection-start-line="28" selection-start-column="8" selection-end-line="37" selection-end-column="32" />
+            <state relative-caret-position="723">
+              <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -114,8 +112,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="SpotifyTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpotifyTest" type="462c0819:PsiDirectoryNode" />
+              <item name="SpotifyPredictor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpotifyPredictor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -191,7 +189,7 @@
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32943678" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1796875" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1796875" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="SciView" />
@@ -355,8 +353,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ModelGenerator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="32" selection-start-line="28" selection-start-column="8" selection-end-line="37" selection-end-column="32" />
+        <state relative-caret-position="723">
+          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
